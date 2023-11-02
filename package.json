@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "react-bootstrap": "^2.9.0",
+    "react-icon": "^1.0.0"
+  }
+}

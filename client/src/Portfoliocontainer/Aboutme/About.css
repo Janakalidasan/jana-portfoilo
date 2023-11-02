@@ -1,0 +1,51 @@
+.Abouts h3{
+  font-weight: 700;
+ 
+}
+.Abouts{
+    margin-top: 20px;
+}
+.lin{
+    width: 14%;
+  height: 2px; /* Adjust the height as needed */
+  background: linear-gradient(to right, #000 -10%, #ff4500,#000 100%);
+  display: inline-block;
+}
+.abt{
+    padding: 20px;
+    box-shadow: 0px 10px 6px #000;
+    margin-top: 20px;
+}
+.abt h5{
+    margin-top: 20px;
+    text-align: start;
+    font-weight: 700;
+}
+.abt p{
+    font-weight: 500;
+}
+.abt ul{
+    margin-top: 30px;
+}
+.abt ul li{
+    list-style-type: none;
+    justify-content: start;
+    display: flex;
+}
+.profile-options .highlighted-btn-1{
+    margin: 0 0 0 28px;
+}
+
+.profile-options .highlighted-btn-1:hover{
+    margin: 0 0 0 28px;
+    background-color: #0d0d0d;
+    color: #fff;
+}
+.highlighted-btn-1 {
+    background-color: orangered;
+    color: #FFF;
+    font-family: 800;
+    border-radius: 20px;
+    margin-left: 10px;
+    padding: 10px 40px 10px 40px;
+}

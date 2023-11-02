@@ -1,0 +1,180 @@
+.names{
+    margin-top: 30px;
+    color: red;
+}
+.res h3{
+    font-weight: 700;
+   
+  }
+  .res{
+      margin-top: 40px;
+  }
+  .lin{
+      width: 14%;
+    height: 2px; /* Adjust the height as needed */
+    background: linear-gradient(to right, #000 -10%, #ff4500,#000 100%);
+    display: inline-block;
+  }
+  .hedas{
+    background-color: #1f184c;
+    padding: 10px 10px 10px 10px;
+  }
+  .hedas .heads a{
+    margin-left: 30px;
+    text-decoration-line: none;
+    color: #ffffff;
+  }
+  .hedas .heads a:hover{
+    margin-left: 30px;
+    color: #ff4500;
+  }
+  .sect {
+    padding: 20px;
+    height: 110vh;
+    overflow-y: scroll;
+    box-shadow: 0px 4px 7px #000;
+}
+  .sect::-webkit-scrollbar {
+    display: none;
+  }
+  .sect h5{
+   text-align: start;
+   color: #ff4500;
+  }
+  .sect p {
+    text-align: start;
+    margin-left: 30px;
+    font-weight: 500;
+    margin-top: 0px;
+}
+   .profile-options-1{
+    display: flex;
+    justify-content: end;
+    margin-top: -35px;
+   }
+ 
+.highlighted-btn-2{
+    background-color: orangered;
+    color: #FFF;
+    font-family: 800;
+    border-radius: 20px;
+    margin-left: 10px;
+    padding: 5px 30px 5px 30px;
+  }
+  .top-sap{
+    margin-top: 40px;
+  }
+  .html {
+    font-size: 30px;
+    margin-left: 40px;
+  }
+  
+  .new-think{
+    font-size: 20px;
+  }
+  
+  .skills_data {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    font-weight: var(--font-semi);
+    padding: 0.5rem 1rem;
+    margin-bottom: var(--mb-4);
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px #000;
+    width: 70%;
+  }
+  
+  .skill_icon {
+    font-size: 2rem;
+    margin-right: var(--mb-2);
+    color: #ff4500;
+  }
+  
+  .skills_name {
+    display: flex;
+    align-items: center;
+  }
+  
+  .skill_bar {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: #ff4500;
+    height: 0.25rem;
+    border-radius: 0.5rem;
+    z-index: var(--z-back);
+   
+  }
+  
+  
+  .skill_html {
+    width: 95%;
+  }
+  .skill_css {
+    width: 85%;
+  }
+  
+  .skill_js {
+    width: 75%;
+  }
+  
+  .skill_ui {
+    width: 85%;
+  }
+  .skill_ui-f {
+    width: 65%;
+  }
+  .skill_devops{
+    width: 45%;
+  }
+  
+
+  .imgsa{
+    height: 70%;
+    margin-top: 100px;
+  }
+  .sect-1{
+    margin-top: 20px;
+    display: flex;
+      justify-content: space-between;
+      overflow: hidden;
+  }
+  
+  .sect-2{
+    margin-top: 20px;
+    display: flex;
+      justify-content:space-between;
+  }
+  .first-image{
+    height: 230px;
+    transition: 1s;
+      cursor: pointer;
+  }
+  .first-image:hover{
+    transform: scale(1.05);
+  }
+
+  @media (max-width:575px){
+    .sect p {
+      text-align: start;
+      margin-left: 30px;
+      font-weight: 500;
+      margin-top: -7px;
+      /* position: relative; */
+  }
+  .profile-options-1 {
+    display: flex;
+    justify-content: end;
+    margin-top: 0px;
+}
+.skills_data {
+  width: 100%;
+}
+.hedas {
+  background-color: #1f184c;
+  padding: 10px 10px 10px 10px;
+  display: none;
+}
+  }
